@@ -1,0 +1,42 @@
+<html>
+  <head> Activities!!! </head>
+  <body>
+  <p>What city do you live in?</p>
+  <div id "output">
+      <button onclick>Okay I'm done.</button>
+  <p>Do you want to do an outdoors activity or an indoors one?</p>
+  <button onclick="myFunction1()">outdoors</button>
+
+<p id="outdoors"></p>
+
+<script>
+function myFunction1() {
+    document.getElementById("outdoors").innerHTML = "What activity do you want to do outdoors?";
+    var text = document.createElement('p');
+    text.textContent = "More buttons";
+}
+</script>
+
+<button onclick="myFunction()">indoors</button>
+<p id="indoors"></p>
+
+<script>
+function myFunction() {
+    document.getElementById("indoors").innerHTML = "What activity do you want to do indoors?";
+  /*  var butt = document.createElement("button");
+    butt.textContent = "Hiking";
+    butt.addAttribute("onClick","displayTextHike()");
+    var butt1 = document.createElement("button");
+butt1.textContent = "skating";
+butt1.addAttribute("onClick", "displayTextSkate()");
+var butt2 = document.createElement("button");
+butt2.textContent = "walking";
+butt2.addAttribute("onClick", "displayTextWalk()");
+    document.body.appendChild(butt);
+    document.body.appendChild(butt1);
+    document.body.appendChild(butt2);*/
+}
+}
+</script>
+    </body>
+</html>
